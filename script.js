@@ -56,7 +56,7 @@ function fibonacci() {
     } else {
         for (i = 2; i <= numeroN; i++) {
             fib.push(fib[i - 1] + fib[i - 2]);
-            document.write(fib[i]);
+            document.writeln(fib[i]);
         }
     }
 }
