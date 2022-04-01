@@ -1,0 +1,216 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter:blur(15px);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,103,1) 35%, rgba(0,212,255,1) 100%);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Titulo {
+    text-align: center;
+    text-decoration: overline;
+    color: rgb(255, 0, 0);
+    background-color: black;
+    padding: 2%;
+
+}
+
+body {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter:blur(15px);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,103,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#Algoritmo1 {
+    
+    width: 400px;
+    background-color: rebeccapurple;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+
+}
+
+#Algoritmo1 p {
+    height: 40px;
+    text-align: 40px;
+
+
+}
+
+#Algoritmo1 h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#Algoritmo1 .Calcular1 {
+    width: 100%;
+    background: #1fc56a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.input1 {
+
+    background-color: rebeccapurple;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px dotted #ffffff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    outline: 0px;
+    display: inline-block;
+    border-radius: 25px 0 0 25px;
+
+}
+
+
+.input1[type=number]::-webkit-inner-spin-button, 
+.input1[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#Algoritmo2 {
+    
+    width: 400px;
+    background-color: rgb(228, 63, 13);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+
+}
+
+#Algoritmo2 p {
+    height: 40px;
+    text-align: 40px;
+
+
+}
+
+#Algoritmo2 h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#Algoritmo2 .Calcular2 {
+    width: 100%;
+    background: #1fc56a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.input2 {
+
+    background-color: rgb(228, 63, 13);
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px dotted #ffffff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    outline: 0px;
+    display: inline-block;
+    border-radius: 25px 0 0 25px;
+
+}
+
+
+.input2[type=number]::-webkit-inner-spin-button, 
+.input2[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+
+
+
+
+#Algoritmo3 {
+    
+    width: 400px;
+    background-color: rgb(48, 25, 6);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+
+}
+
+#Algoritmo3 p {
+    height: 40px;
+    text-align: 40px;
+
+
+}
+
+#Algoritmo3 h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#Algoritmo3 .Calcular3 {
+    width: 100%;
+    background: #1fc56a;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.input3 {
+
+    background-color: rgb(48, 25, 6);
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px dotted #ffffff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    outline: 0px;
+    display: inline-block;
+    border-radius: 25px 0 0 25px;
+
+}
+
+
+.input3[type=number]::-webkit-inner-spin-button, 
+.input3[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
