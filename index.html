@@ -2,45 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algoritmos de práctica</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1 id="Titulo">Algoritmos de práctica</h1>
+        <h1 id="titulo">Algoritmos de práctica</h1>
     </header>
-    <section id="Algoritmo1">
-        <h2>Algoritmo 1:</h2>
-        <p>Escriba un programa en JS que reciba un número entero N e ir todos los números primos desde 1 hasta N.</p><br>
-            <p>Ingrese un número:</p>
-            <input type="number" id="numero1" class="input1"placeholder="Escribe un número entero">
-            <button class="Calcular1"onclick="numPrimos()">Calcular</button>
-        </label>
-    </section>
-    <section id="Algoritmo2">
-        <h2>Algoritmo 2:</h2>
-        <p>Dado un número N, imprima la sumatoria:
-            <br>
-            Sumatoria = 1^N + 2^N + 3^N + 4^N... + N^N
-            <br></p>
-        <label id="label2" for="">
-            <span>Ingrese un número:</span>
-            <input type="number" id="numero2" class="input2"placeholder="Escribe un número entero">
-            <button class="Calcular2" onclick="sum()">Calcular</button>
-        </label>
-    </section>
-    <section id="Algoritmo3">
-        <h2>Algoritmo 3:</h2>
-        <p>Dado un número N, imprima la serie de Fibonacci (N términos.)</p>
-        <label id="label3" for="">
-            <span>Ingrese un número:</span>
-            <input type="number" id="numero3" class="input3"placeholder="Escribe un número entero">
-            <button class="Calcular3" onclick="fibonacci()">Calcular</button>
-        </label>
-    </section>
+    <main>
+        <section id="algoritmo-container">
+            <form>
+                <label for="algoritmo-select">
+                    <span>Elige un algoritmo:</span>
+                    <select id="algoritmo-select" class="input">
+                        <option value="algoritmo1" selected>Algoritmo 1: Números primos</option>
+                        <option value="algoritmo2">Algoritmo 2: Sumatoria</option>
+                        <option value="algoritmo3">Algoritmo 3: Serie de Fibonacci</option>
+                    </select>
+                </label>
+                <label id="algoritmo1-input" for="numero1">
+                    <span>Ingresa un número:</span>
+                    <input type="number" id="numero1" class="input" placeholder="Escribe un número entero">
+                </label>
+                <label id="algoritmo2-input" for="numero2" style="display:none">
+                    <span>Ingresa un número:</span>
+                    <input type="number" id="numero2" class="input" placeholder="Escribe un número entero">
+                </label>
+                <label id="algoritmo3-input" for="numero3" style="display:none">
+                    <span>Ingresa un número:</span>
+                    <input type="number" id="numero3" class="input" placeholder="Escribe un número entero">
+                </label>
+                <button type="button" class="calcular" onclick="ejecutarAlgoritmo()">Calcular</button>
+            </form>
+            <div id="resultado" class="resultado">
+                <!-- Aquí se mostrará el resultado del algoritmo seleccionado -->
+            </div>
+        </section>
+    </main>
 </body>
-
 </html>
